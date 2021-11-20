@@ -12,10 +12,10 @@ module.exports = {
     module: {
         rules: [
             {
-            test: /\.ts$/,
-            loader: 'ts-loader',
-            options: {
-                configFile: path.join(src, 'tsconfig.json')
+                test: /\.ts$/,
+                loader: 'ts-loader',
+                options: {
+                    configFile: path.join(src, 'tsconfig.json')
                 }
             }
         ]
